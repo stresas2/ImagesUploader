@@ -1,8 +1,8 @@
 <?php
 	$host = "localhost";
-	$userName = "mygidasl";
-	$password = "meskenas123";
-	$dbName = "mygidasl_upload_images";
+	$userName = "root";
+	$password = "";
+	$dbName = "upload_images";
 	// Create database connection
 	$db = new mysqli($host, $userName, $password, $dbName);
 	// Check connection
